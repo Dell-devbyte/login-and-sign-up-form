@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 50px;
+}
+
+.form-list{
+    display:flex ;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label{
+    width: 150px;
+    margin-right: 0px;
+}
+
+button{
+    background-color: beige;
+    border-radius: 4px;
+}
+
+.sign-button, .login-button, sign-up-button{
+    margin-left: 300px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    flex: 1;
+    border-radius: 4px;
+}
+
